@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <section>
+    <button id="exibir">Exibir formulário de cadastro</button>
+            <form action="/form" method="POST" id="panelform">
+                Nome:<br> <input type="text" name="Nome" id="Nome" class="in"/>
+                Sobrenome: <br><input type="text" name="Sobrenome" id="Sobrenome" class="in"/>
+                Email: <br><input type="email" name="Email" id="EMail" class="in"/>
+                Senha:<br> <input type="senha" name="Senha" id="Senha" class="in"/>
+                Confirme Senha: <br><input type="senha" id="cSenha" class="in"/>
+                CPF:<br> <input type="number" name="Cpf" id="Cpf" class="in"/>
+                Telefone:<br> <input type="number" name="Tele" id="Tele" class="in"/>
+                <p>Sexo: <br><input type="radio" id="Masc" name="radsex" value="Masculino"/>Masculino<input type="radio" id="Fem" name="radsex" value="Feminino"/>Feminino</p>
+                <p><button id="enviar">Enviar</button></p>
+            </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
